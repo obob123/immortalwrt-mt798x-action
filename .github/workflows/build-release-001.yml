@@ -87,7 +87,7 @@ jobs:
         echo build_dir="/builder" >> "$GITHUB_ENV"
         # 新增1：定义定时构建的默认参数（不影响手动触发）
         echo "DEFAULT_DEVICE=netcore-n60-pro" >> "$GITHUB_ENV"
-        echo "DEFAULT_LAN=10.0.0.1" >> "$GITHUB_ENV"
+        echo "DEFAULT_LAN=192.168.6.1" >> "$GITHUB_ENV"
         echo "DEFAULT_WIFI=ZeroWrt" >> "$GITHUB_ENV"
         echo "DEFAULT_PW=password" >> "$GITHUB_ENV"
         echo "DEFAULT_OPTIONS=BUILD_FAST=y ENABLE_BPF=y" >> "$GITHUB_ENV"
