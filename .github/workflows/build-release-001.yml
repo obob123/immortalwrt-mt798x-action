@@ -45,7 +45,7 @@ on:
       lan_addr:
         description: '🌐 设置默认 LAN IP 地址'
         required: true
-        default: '10.0.0.1'
+        default: '192.168.6.1'
         type: string
       wifi_name:
         description: '🛜 设置默认 WIFI 名称（可选，默认ZeroWrt）'
